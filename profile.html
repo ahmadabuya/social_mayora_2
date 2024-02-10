@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialMayora Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5efefd11c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="images/Social Mayora.png" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+
+        </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online">
+                <img src="images/profile-pic.png" onclick="setttingsMenuToggle()">
+            </div>
+
+        </div>
+        <!-------------- setting-menu ------------>
+
+        <div class="setting-menu">
+
+            <div id="dark-btn">
+                <span class="dark-btn-on"></span>
+
+            </div>
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" class="setting-icon">
+                    <a href="#">Seting & Privacy<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="setting-icon">
+                    <a href="#">Help & Support<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="setting-icon">
+                    <a href="#">Display & Accessibility<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="setting-icon">
+                    <a href="#" class="logout-btn">Logout<img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+            
+
+        </div>
+    </nav>
+
+    <!-- ------------ profile page -------------- -->
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-image">
+        <div class="profile-detail">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile.png" class="pd-image">
+                    <div>
+                        <h3>Jack NIcholson</h3>
+                        <p>120 Friends - 20 Mutual</p>
+                        <img src="images/member-1.png">
+                        <img src="images/member-2.png">
+                        <img src="images/member-3.png">
+                        <img src="images/member-4.png">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"><img src="images/add-friends.png">Friends</button>
+                <button type="button"><img src="images/message.png" alt="">Message</button>
+                <br>
+                <a href="#"><img src="images/more.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor aliquam labore sapiente eveniet iusto ab consectetur amet assumenda. Assumenda, quae? 
+                    <img src="images/feeling.png" alt=""></p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-job.png">Bachelor Degree Technik Informatika</li>
+                        <li><img src="images/profile-study.png">Studied at Muhammadiyah University</li>
+                        <li><img src="images/profile-study.png">Went to Tangerang</li>
+                        <li><img src="images/profile-home.png">Lives in Tangengang, Indonesia</li>
+                        <li><img src="images/profile-location.png">From Tangerang, Indonesia</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="tittle-box">
+                        <h3>Photos</h3>
+                        <a href="#">All Photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="images/photo1.png"></div>
+                        <div><img src="images/photo2.png"></div>
+                        <div><img src="images/photo3.png"></div>
+                        <div><img src="images/photo4.png"></div>
+                        <div><img src="images/photo5.png"></div>
+                        <div><img src="images/photo6.png"></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="tittle-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+                    </div>
+                    <p>120 (10mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="images/member-1.png"><p>Jarot</p></div>
+                        <div><img src="images/member-2.png"><p>Ilham</p></div>
+                        <div><img src="images/member-3.png"><p>Danu</p></div>
+                        <div><img src="images/member-4.png"><p>Eef</p></div>
+                        <div><img src="images/member-5.png"><p>Madon</p></div>
+                        <div><img src="images/member-6.png"><p>Joko</p></div>
+                        <div><img src="images/member-7.png"><p>Fildan</p></div>
+                        <div><img src="images/member-8.png"><p>Wawi</p></div>
+                        <div><img src="images/member-9.png"><p>Dodi</p></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+    
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, John"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/live-video.png">Live Video</a>
+                            <a href="#"><img src="images/photo.png">Photo/Video</a>
+                            <a href="#"><img src="images/feeling.png">Feeling/Activity</a>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profile-pic.png">
+                                <div>
+                                    <p>John Nicholson</p>
+                                    <span> Jan 02 2024, 07:30 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">Subcribe <span>@abuy Tutorials</span> youtube channel to watch more videos on website Development 
+                            and UI Design. <a href="#">#AbuyTutorial</a> <a href="#">#YoutubeChannel</a></p>
+                            <img src="images/feed-image-1.png" class="post-img">
+        
+                            <div class="post-row">
+                                <div class="activity-icons">
+                                    <div><img src="images/like-blue.png">120</div>
+                                    <div><img src="images/comments.png">45</div>
+                                    <div><img src="images/share.png">20</div>
+                                </div>
+                                <div class="post-profile-icon">
+                                    <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+        
+                                </div>
+                            </div>
+                    </div>
+        
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profile-pic.png">
+                                <div>
+                                    <p>John Nicholson</p>
+                                    <span> Jan 02 2024, 07:30 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">Subcribe <span>@abuy Tutorials</span> youtube channel to watch more videos on website Development 
+                            and UI Design. <a href="#">#AbuyTutorial</a> <a href="#">#YoutubeChannel</a></p>
+                            <img src="images/feed-image-2.png" class="post-img">
+        
+                            <div class="post-row">
+                                <div class="activity-icons">
+                                    <div><img src="images/like.png">120</div>
+                                    <div><img src="images/comments.png">45</div>
+                                    <div><img src="images/share.png">20</div>
+                                </div>
+                                <div class="post-profile-icon">
+                                    <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+        
+                                </div>
+                            </div>
+                    </div>
+        
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profile-pic.png">
+                                <div>
+                                    <p>John Nicholson</p>
+                                    <span> Jan 02 2024, 07:30 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">Subcribe <span>@abuy Tutorials</span> youtube channel to watch more videos on website Development 
+                            and UI Design. <a href="#">#AbuyTutorial</a> <a href="#">#YoutubeChannel</a></p>
+                            <img src="images/feed-image-3.png" class="post-img">
+        
+                            <div class="post-row">
+                                <div class="activity-icons">
+                                    <div><img src="images/like.png">120</div>
+                                    <div><img src="images/comments.png">45</div>
+                                    <div><img src="images/share.png">20</div>
+                                </div>
+                                <div class="post-profile-icon">
+                                    <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+        
+                                </div>
+                            </div>
+                    </div>
+        
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profile-pic.png">
+                                <div>
+                                    <p>John Nicholson</p>
+                                    <span> Jan 02 2024, 07:30 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">Subcribe <span>@abuy Tutorials</span> youtube channel to watch more videos on website Development 
+                            and UI Design. <a href="#">#AbuyTutorial</a> <a href="#">#YoutubeChannel</a></p>
+                            <img src="images/feed-image-4.png" class="post-img">
+        
+                            <div class="post-row">
+                                <div class="activity-icons">
+                                    <div><img src="images/like.png">120</div>
+                                    <div><img src="images/comments.png">45</div>
+                                    <div><img src="images/share.png">20</div>
+                                </div>
+                                <div class="post-profile-icon">
+                                    <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+        
+                                </div>
+                            </div>
+                    </div>
+        
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profile-pic.png">
+                                <div>
+                                    <p>John Nicholson</p>
+                                    <span> Jan 02 2024, 07:30 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">Subcribe <span>@abuy Tutorials</span> youtube channel to watch more videos on website Development 
+                            and UI Design. <a href="#">#AbuyTutorial</a> <a href="#">#YoutubeChannel</a></p>
+                            <img src="images/feed-image-5.png" class="post-img">
+        
+                            <div class="post-row">
+                                <div class="activity-icons">
+                                    <div><img src="images/like.png">120</div>
+                                    <div><img src="images/comments.png">45</div>
+                                    <div><img src="images/share.png">20</div>
+                                </div>
+                                <div class="post-profile-icon">
+                                    <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+        
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    
+
+    <div class="footer">
+        <p>Copyright 2024 - Abuy Media Sosial Development </p>
+    </div>
+    <script src="script.js"></script>
+    <script src="logout.js"></script>
+</body>
+</html
